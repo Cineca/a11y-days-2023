@@ -5,7 +5,7 @@ Segui i passaggi riportati di seguito per installare le dipendenze e far partire
 1. Clona il repository sul tuo computer utilizzando il comando Git:  
    git clone https://github.com/Cineca/a11y-days-2023.git
 
-2. Naviga nella directory del progetto
+2. Spostati nella directory del progetto
 
 3. Installa le dipendenze del progetto utilizzando npm:
    npm install
