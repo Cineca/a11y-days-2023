@@ -13,7 +13,7 @@ Segui i passaggi riportati di seguito per installare le dipendenze e far partire
 # Avvio del server di sviluppo
 
 Una volta completata l'installazione, puoi avviare il server di sviluppo locale utilizzando il seguente comando:
-ng serve
+npm run start
 
 Il server di sviluppo avvierà l'applicazione Angular e sarai in grado di visualizzarla nel tuo browser all'indirizzo http://localhost:4200/.
 
