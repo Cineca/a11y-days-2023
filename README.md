@@ -1,27 +1,35 @@
-# DemoA11yCineca
+# Installazione
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+Segui i passaggi riportati di seguito per installare le dipendenze e far partire il progetto:
 
-## Development server
+1. Clona il repository sul tuo computer utilizzando il comando Git:  
+   git clone https://github.com/Cineca/a11y-days-2023.git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Spostati nella directory del progetto
 
-## Code scaffolding
+3. Installa le dipendenze del progetto utilizzando npm:
+   npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Avvio del server di sviluppo
 
-## Build
+Una volta completata l'installazione, puoi avviare il server di sviluppo locale utilizzando il seguente comando:
+ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Il server di sviluppo avvierà l'applicazione Angular e sarai in grado di visualizzarla nel tuo browser all'indirizzo http://localhost:4200/.
 
-## Running unit tests
+# Avvio di Cypress
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Segui i passaggi riportati di seguito per avviare Cypress e eseguire il test di accessibilità nel progetto:
 
-## Running end-to-end tests
+1. Assicurati di aver completato l'installazione delle dipendenze come descritto nella sezione "Installazione"
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Assicurati di trovarti nella directory principale del progetto.
 
-## Further help
+3. Esegui il comando seguente per avviare Cypress:
+   npx cypress open
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Seleziona E2E Testing
+
+5. Scegli quale browser utilizzare
+
+6. Seleziona il file a11y-full-page
