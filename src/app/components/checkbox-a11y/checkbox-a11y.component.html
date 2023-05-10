@@ -1,18 +1,11 @@
 <div class="checkbox-container">
   <p class="title-component">Esempio checkbox</p>
   <div class="component-container">
-    <section class="example-section" [formGroup]="toppings">
-      <p>Select your toppings:</p>
-      <p><mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox></p>
-      <p>
-        <mat-checkbox formControlName="extracheese">Extra Cheese</mat-checkbox>
-      </p>
-      <p><mat-checkbox formControlName="mushroom">Mushroom</mat-checkbox></p>
-    </section>
-
-    <section class="example-section" [formGroup]="toppings">
-      <p>You chose:</p>
-      {{ toppings.value | json }}
+    <section class="example-section">
+      <mat-checkbox class="example-margin">Check me!</mat-checkbox>
+      <mat-checkbox class="example-margin" [disabled]="true"
+        >Disabled</mat-checkbox
+      >
     </section>
   </div>
 </div>
