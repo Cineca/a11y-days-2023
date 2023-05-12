@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { PaginaAccessibileComponent } from './pagina-accessibile/pagina-accessibile.component';
-import { ListA11yComponent } from './components/list-a11y/list-a11y.component';
 import { ChipA11yComponent } from './components/chip-a11y/chip-a11y.component';
 import { ExpansionA11yComponent } from './components/expansion-a11y/expansion-a11y.component';
 import { CheckboxA11yComponent } from './components/checkbox-a11y/checkbox-a11y.component';
@@ -29,7 +28,6 @@ import { MatMenuModule } from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
-    ListA11yComponent,
     ToolbarComponent,
     PaginaAccessibileComponent,
     ChipA11yComponent,
