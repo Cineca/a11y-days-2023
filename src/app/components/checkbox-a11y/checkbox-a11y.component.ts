@@ -15,3 +15,8 @@ export class CheckboxA11yComponent implements AfterViewInit {
     checkboxElement?.setAttribute('aria-hidden', 'true');
   }
 }
+
+
+
+
+
