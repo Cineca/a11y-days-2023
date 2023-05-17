@@ -1,4 +1,7 @@
-# Installazione
+# Demo componenti accessibili Angular Material
+Il repository con il codice demo per l'intervento "Raggiungere l’eccellenza inclusiva con Cineca: A11Y by design e test come best practice" all'edizione 2023 degli Accessibility Days.
+
+## Installazione
 
 Segui i passaggi riportati di seguito per installare le dipendenze e far partire il progetto:
 
@@ -10,14 +13,14 @@ Segui i passaggi riportati di seguito per installare le dipendenze e far partire
 3. Installa le dipendenze del progetto utilizzando npm:
    npm install
 
-# Avvio del server di sviluppo
+## Avvio del server di sviluppo
 
 Una volta completata l'installazione, puoi avviare il server di sviluppo locale utilizzando il seguente comando:
 npm run start
 
 Il server di sviluppo avvierà l'applicazione Angular e sarai in grado di visualizzarla nel tuo browser all'indirizzo http://localhost:4200/.
 
-# Avvio di Cypress
+## Avvio di Cypress
 
 Segui i passaggi riportati di seguito per avviare Cypress e eseguire il test di accessibilità nel progetto:
 
@@ -32,4 +35,4 @@ Segui i passaggi riportati di seguito per avviare Cypress e eseguire il test di 
 
 5. Scegli quale browser utilizzare
 
-6. Seleziona il file a11y-full-page
+6. Seleziona il file a11y-full-page.
